@@ -17,7 +17,7 @@ class DraftManager():
         self.area.title = "Talon Draft"
         self.area.theme = DarkThemeLabels(
             text_size=20,
-            label_size=20
+            label_size=12
         )
         self.area.value = ''
         self.area.register('label', self._update_labels)
